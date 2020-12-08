@@ -78,10 +78,12 @@
                 android:id="@+id/tvNine"
                 style="@style/NBS"
                 android:text="9"></TextView>
-            <TextView
+            <ImageView
                 android:id="@+id/tvMinus"
                 style="@style/ABS"
-                android:text="-"></TextView>
+                android:text="-"
+                android:scaleType="center"
+                android:src="@mipmap/min"></ImageView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
